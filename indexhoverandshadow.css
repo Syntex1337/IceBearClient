@@ -1,0 +1,25 @@
+.toppurchase:hover { 
+    text-decoration: none; 
+    color: #ffffff; 
+    text-shadow: 0px 0px 100px #000000; 
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #4355ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+} 
+.topdiscord:hover { 
+    text-decoration: none; 
+    color: #e4dede; 
+    text-shadow: 0px 0px 10px #fff; 
+    margin-left: 10px;
+} 
+
+
+
+
