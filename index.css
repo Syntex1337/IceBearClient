@@ -1,10 +1,10 @@
 @font-face {
     font-family: Font1;
-    src: url(/images/fonts/Barlow-Light.ttf);
+    src: url(https://raw.githubusercontent.com/Syntex1337/IceBearClient/main/images/fonts/Barlow-Light.ttf);
 }
 @font-face {
     font-family: Font2;
-    src: url(/images/fonts/Clean2.otf)
+    src: url(https://raw.githubusercontent.com/Syntex1337/IceBearClient/main/images/fonts/Clean2.otf)
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -19,7 +19,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #0243f7;
 }
-
+ 
   body { 
     width: 100%;
     height: 600px;
@@ -41,7 +41,7 @@
       justify-content: space-between; 
       align-items: center; 
       margin-top: 20px;
-      box-shadow:0 0 9px rgb(47, 0, 255);
+      box-shadow:0 0 9px rgb(0, 0, 0);
   } 
   
   .topicon { 
