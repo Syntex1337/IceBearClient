@@ -1,126 +1,143 @@
 @font-face {
-    font-family: Font1;
-    src: url(https://raw.githubusercontent.com/Syntex1337/IceBearClient/main/images/fonts/Barlow-Light.ttf);
+  font-family: Font1;
+  src: url(https://raw.githubusercontent.com/Syntex1337/IceBearClient/main/images/fonts/Barlow-Light.ttf);
 }
 @font-face {
-    font-family: Font2;
-    src: url(https://raw.githubusercontent.com/Syntex1337/IceBearClient/main/images/fonts/Clean2.otf)
+  font-family: Font2;
+  src: url(https://raw.githubusercontent.com/Syntex1337/IceBearClient/main/images/fonts/Clean2.otf)
 }
 ::-webkit-scrollbar {
-  width: 10px;
+width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: rgb(213, 216, 247);
+background: rgb(213, 216, 247);
 }
 ::-webkit-scrollbar-thumb {
-  background: #5061fd;
-  border-radius: 2px
+background: rgb(136, 0, 247);
+border-radius: 2px
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #0243f7;
+background: rgb(112, 1, 202);
 }
- 
-  body { 
-    width: 100%;
-    height: 600px;
-    background-image: linear-gradient(to left top, #01087c, #010677, #010573, #01036e, #01026a, #000464, #00065e, #000758, #000a4e, #000a45, #00083a, #010630);
-    color: #fff; 
-    margin: 0; 
-    padding: 0; 
-    text-align: center;
-  } 
+.logo{
+filter: contrast(1000%);
+}
+body { 
+  background-image: linear-gradient(to right, rgb(31, 3, 109) , rgb(13, 1, 46) , rgb(0, 11, 59) , rgb(31, 3, 109));
+  color: #fff; 
+  margin: 0; 
+  margin-bottom: 30px;
+  padding: 0; 
+  text-align: center;
+} 
 
-  .multiserverclient {
-    color: #4355ff;
-    text-shadow: 0 0 10px #4355ff;
-    line-height: 10px;
-    font-family: Font2;
-}
-  .topnav { 
-      display: flex; 
-      justify-content: space-between; 
-      align-items: center; 
-      margin-top: 20px;
-      box-shadow:0 0 9px rgb(0, 0, 0);
-  } 
-  
-  .topicon { 
-      display: flex; 
-      margin-left: 30px; 
-      filter: contrast(200%);
-  } 
-  
-  .discord { 
-      margin-right: 50px;
-  } 
-  
-  .topnavtxt { 
-      margin-left: 10px; 
-      font-family: Font1;
-      text-shadow: 0px 0px 4px #fff; 
-      font-size: 30px;
-  } 
-
-  .topdiscord { 
-      text-decoration: none; 
-      color: #c7c7c7; 
-      text-shadow: 0px 0px 10px #fff;
-      font-family: Font1;
-  } 
-  
-  .toppurchase { 
-      text-decoration: none; 
-      color: #c7c7c7; 
-      text-shadow: 0px 0px 10px #000000; 
-      margin-left: 10px;
-      width: 100px;
-      height: 50px;
-      background-color: #4355ff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      text-align: center;
-      padding: 10px;
-      font-family: Font1;
-  } 
-  .middle{
-    font-family: Font2;
-    font-size: 40px;
-    text-shadow: 0 0 10px #fff;
-  }
-  .features{
-    font-size: 80px;
-    line-height: 300px;
-    font-family: Font2;
-    text-shadow: 0 0 4px white;
-  }
-  .midbuttondiscord{
-    line-height: 80px;
-    text-decoration: none;
-    color: white;
-    font-family: Font1;
-    background-color: #5969fc;
-    border: none;
-    padding: 10px;
-    border-radius: 8px;
-    margin-left: 5px;
-  }
-.midtxtdesc{
-  font-size: 20px;
-  line-height: 1px;
-}
-.cards {  
-  box-shadow: 0 0 10px rgb(0, 47, 255);
-  font-family: Font2; 
+.multiserverclient {
+  color: rgb(183, 0, 255);
+  text-shadow: 0 0 10px rgb(183, 0, 255);
   line-height: 10px;
+  font-family: Font2;
+}
+.topnav { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 20px;
+    box-shadow:0 0 9px rgba(0, 0, 0, 0.425);
+    filter: blur(100%);
+    filter: contrast(200%);
+} 
+
+.topicon { 
+    display: flex; 
+    margin-left: 30px; 
+    filter: contrast(200%);
+  align-items: center;
+} 
+
+.discord { 
+    margin-right: 50px;
+} 
+
+.topnavtxt { 
+    margin-left: 10px; 
+    font-family: Font1;
+    text-shadow: 0px 0px 4px #fff; 
+    font-size: 30px;
+} 
+
+.topdiscord { 
+    text-decoration: none; 
+    color: #c7c7c7; 
+    text-shadow: 0px 0px 10px #fff;
+    font-family: Font1;
+} 
+
+.toppurchase { 
+    text-decoration: none; 
+    color: #c7c7c7; 
+    text-shadow: 0px 0px 10px #000000; 
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(136, 0, 247);
+    box-shadow: 0 0 10px rgb(136, 0, 247);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-family: Font1;
+} 
+.middle{
+  font-family: Font2;
+  font-size: 40px;
+  text-shadow: 0 0 10px #fff;
+}
+.features{
+  font-size: 80px;
+  line-height: 300px;
+  font-family: Font2;
+  text-shadow: 0 0 4px white;
+}
+.midbuttondiscord{
+  line-height: 80px;
+  text-decoration: none;
+  color: white;
+  font-family: Font1;
+  background-color: rgb(136, 0, 247);
+  box-shadow: 0 0 10px rgb(183, 0, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+.midtxtdesc{
+font-size: 20px;
+line-height: 1px;
+}
+.cards   {  
+box-shadow: 0 0 10px rgb(206, 153, 250);
+font-family: Font2; 
+line-height: 10px;
 } 
 .icons{
-  -webkit-filter: grayscale(1) invert(1);
-  filter: grayscale(1) invert(1);
-  height: 30px;
-  width: 30px;
+-webkit-filter: grayscale(1) invert(1);
+filter: grayscale(1) invert(1);
+height: 30px;
+width: 30px;
 }
 .desctxt{
-  font-family: Font1;
+font-family: Font1;
+}
+.creditbot{
+font-family: Font1;
+margin-top: 100px;
+text-shadow: 0 0 5px rgb(255, 255, 255);
+color: rgba(255, 255, 255, 0.514);
+}
+.creditbotlink{
+text-decoration: none;
+text-shadow: 0 0 3 rgb(183, 0, 255);
+color: rgb(183, 0, 255);
 }
