@@ -1,3 +1,6 @@
+/* hi there! im Trashbox This Site is Fully Made By TrashBox#9999 Please Contact him. To Skid Etc */
+
+
 @font-face {
   font-family: Font1;
   src: url(https://raw.githubusercontent.com/Syntex1337/IceBearClient/main/images/fonts/Barlow-Light.ttf);
@@ -23,12 +26,13 @@ background: rgb(112, 1, 202);
 filter: contrast(1000%);
 }
 body { 
-  background-image: linear-gradient(to right, rgb(31, 3, 109) , rgb(13, 1, 46) , rgb(0, 11, 59) , rgb(31, 3, 109));
+  background-image: linear-gradient(to right, rgb(31, 3, 109) , rgb(0, 11, 59) , rgb(0, 11, 59) , rgb(31, 3, 109));
   color: #fff; 
   margin: 0; 
   margin-bottom: 30px;
   padding: 0; 
   text-align: center;
+  scroll-behavior: smooth;
 } 
 
 .multiserverclient {
@@ -79,7 +83,7 @@ body {
     margin-left: 10px;
     width: 100px;
     height: 50px;
-    background-color: rgb(136, 0, 247);
+    background-color: rgb(143, 13, 250);
     box-shadow: 0 0 10px rgb(136, 0, 247);
     color: #fff;
     border: none;
@@ -94,12 +98,6 @@ body {
   font-size: 40px;
   text-shadow: 0 0 10px #fff;
 }
-.features{
-  font-size: 80px;
-  line-height: 300px;
-  font-family: Font2;
-  text-shadow: 0 0 4px white;
-}
 .midbuttondiscord{
   line-height: 80px;
   text-decoration: none;
@@ -110,22 +108,11 @@ body {
   border: none;
   padding: 10px;
   border-radius: 8px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .midtxtdesc{
 font-size: 20px;
 line-height: 1px;
-}
-.cards   {  
-box-shadow: 0 0 10px rgb(206, 153, 250);
-font-family: Font2; 
-line-height: 10px;
-} 
-.icons{
--webkit-filter: grayscale(1) invert(1);
-filter: grayscale(1) invert(1);
-height: 30px;
-width: 30px;
 }
 .desctxt{
 font-family: Font1;
@@ -140,4 +127,24 @@ color: rgba(255, 255, 255, 0.514);
 text-decoration: none;
 text-shadow: 0 0 3 rgb(183, 0, 255);
 color: rgb(183, 0, 255);
+}
+
+.cards { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+} 
+.features2{
+font-family: font2;
+text-shadow: 0 0 4px white;
+font-size: 60px;
+}
+.bypasses1::content{
+  padding: 50px;
+  margin: 0 10px 10px 10px;
+  background-color: #000000;
+  font-family: font1;
+border-radius: 10px;
+
 }
